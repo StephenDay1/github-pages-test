@@ -13,8 +13,17 @@ function toggleDarkMode() {
   let theme = localStorage.getItem("theme");
   if (theme && theme === "dark-mode") {
     localStorage.setItem("theme", "light-mode");
+    document.querySelector('meta[name="theme-color"]')
+      .setAttribute("content", 
+        getComputedStyle(document.documentElement)
+        .getPropertyValue('--light-accent-color'));
+
   } else {
     localStorage.setItem("theme", "dark-mode");
+    document.querySelector('meta[name="theme-color"]')
+      .setAttribute("content", 
+        getComputedStyle(document.documentElement)
+        .getPropertyValue('--dark-accent-color'));
   }
 }
 
