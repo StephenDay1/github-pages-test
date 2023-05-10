@@ -1,10 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>My GitHub Pages Test</title>
+    <title>TEMPLATE-TITLE</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="template/template-styles.css">
+    <script src="template/template-script.js"></script>
 </head>
-<body>
-  <h1>Hello World.</h1>
+<body class="dark-mode">
+    <nav id="topnav">
+        <a href="../home.html" id="home-button"><img src="assets/all/BullLogo.png" alt="Bullbots Logo"></a>
+        <ul>
+            <li><a href="default.asp">Robots</a></li>
+            <li><a href="news.asp">Summer Camps</a></li>
+            <li><a href="contact.asp">Members</a></li>
+            <!-- <li><a href="../snake/index.html">Contact Us</a></li> -->
+        </ul>
+        <a href="javascript:void(0);" class="nav-icon" onclick="openNav()">
+            <img src="assets/all/menu.png" alt="Navigation Menu">
+        </a>
+    </nav>
+    <div class="main-content">
+        <h1>The Bullbots</h1>
+        <p>FIRST Team 1891 – “The Bullbots” – is a FIRST Robotics Competition (FRC) team based in Meridian, Idaho. Consisting of 25 students and mentors, the team was originally founded in 2005 in a small classroom at Mountain View High School.  The Bullbots involvement in the community doesn’t stop in Meridian, though – FIRST Team 1891 prides itself on assisting many other FIRST teams throughout the northwest and beyond.</p>
+            
+        <p>In 2006, the Bullbots competed in their first FRC competition. As rookies, the team’s primary focus was on building our robot. Since then, FIRST Team 1891 has grown into a true “team” and works to promote FIRST robotics, and engineering in general, throughout the community. Along with workshops and demonstrations, the Bullbots proudly host FIRST LEGO® Robotics Camps – a wildly successful program that gets children involved in the world of engineering and has itself spawned several FIRST LEGO® League (FLL) teams throughout the area.</p>
+            
+        <p>Ultimately, the Bullbots have become a real club: working, sharing and giving back to the community year-round.</p>
+            
+        <h2>Our Mission</h2>
+        <p>We promote engineering as a fun and educational career path by solving real-world problems within a team environment, promoting gracious professionalism, and ensuring that the team is sustainable by improving and refining our objectives from year to year. We aim to bring excitement about science and technology to the community by communicating who we are and why we love FIRST robotics.</p>
+            
+        <h2>“It’s Just a Prototype”</h2>
+        <p>When our team was created, we were asked for a motto.  The random phrase, “It’s just a prototype,” was decided upon.  This “motto” began as a joke, but it has evolved into something much more than that.  Our team has noticed that, unintentionally, this line has come to define us.  FIRST team 1891 The Bullbots is always changing, always growing.  Each phase of a project or our team is just a prototype, never the final product.  The Bullbots have realized that even now, with years of experience, and major awards, we are just a prototype, for if we ever stop growing, stop improving, then we fail.</p>
+    </div>
+
+    <footer>
+        <button id="toggleDarkMode" onclick="toggleDarkMode()">
+            <!-- <img src="../assets/all/light.png" alt="Light"> -->
+            <!-- <img src="../assets/all/dark.png" alt="Light"> -->
+        </button>
+        <!-- Social Media -->
+        <ul>
+            <li><a href="https://www.thebluealliance.com/team/1891"><img src="assets/all/tba.png" alt="The Blue Alliance" class="round"></a></li>
+            <li><a href="https://github.com/bullbots"><img src="assets/all/github.png" alt="GitHub"></a></li>
+            <li><a href="https://www.youtube.com/channel/UCCmrOGRUHLHU7v2e1KMEHyQ/featured"><img src="assets/all/youtube.png" alt="YouTube"></a></li>
+            <li><a href="https://www.instagram.com/frcteam1891/"><img src="assets/all/instagram.png" alt="Instagram"></a></li>
+            <li><a href="https://www.facebook.com/bullbots/"><img src="assets/all/facebook.png" alt="Facebook"></a></li>
+        </ul>
+    </footer>
 </body>
 </html>
